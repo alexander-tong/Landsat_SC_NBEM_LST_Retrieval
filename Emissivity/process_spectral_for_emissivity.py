@@ -2,7 +2,7 @@
 """
 Created on Sat Sep 15 21:58:24 2018
 
-@author: Alex
+@author: Alexander Tong
 """
 
 def main():
