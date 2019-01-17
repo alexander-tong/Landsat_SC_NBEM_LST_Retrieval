@@ -33,7 +33,7 @@ def process_emissivity(directory,material,landsat_sensor):
         landsat_sensor (int): specify landsat sensor; currently only accepts 5, 7, or 8
         
     Returns:
-        print out of global (mean) emissivity of x material at effective TIRS \n\
+        print out of global (mean) emissivity of specified material at effective TIRS \n\
         wavelength for Landsat 5/7/8 
     
     $Future Implementation: modify targeted effective wavelengths into  own function 
