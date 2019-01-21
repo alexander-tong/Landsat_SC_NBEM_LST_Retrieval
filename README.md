@@ -11,14 +11,17 @@ LST may be calculated from a single or multiple thermal infrared bands, dependin
 
 Instructions for calculating LST will be added at a later date along with the algorithm as reported by Jiménez-Muñoz et al. 2009. 
 
-# Requirements
-Workflow tested and developed using the following:
+## Requirements
+Workflow tested and developed using the following packages/libraries:
  - arcpy (ArcMap 10.6.1; Esri ArcGIS Spatial Analyst Extension License) 
- - pandas 2.x.x
+ - pandas 0.23.0
  
 Future implementation will use GDAL in lieu of arcpy 
 
-# References
+
+## Emissivity Calculation
+
+## References
 Jimenez-Munoz, J. C., Cristobal, J., Sobrino, J. A., Sòria, G., Ninyerola, M., & Pons, X. (2009). Revision of the single-channel algorithm for land surface temperature retrieval from landsat thermal-infrared data. IEEE Transactions on Geoscience and Remote Sensing, 47(1), 339-349. doi:10.1109/TGRS.2008.2007125 
 
 Jimenez-Munoz, J. C., Sobrino, J. A., Skokovic, D., Mattar, C., & Cristobal, J. (2014). Land surface temperature retrieval methods from landsat-8 thermal infrared sensor data. IEEE Geoscience and Remote Sensing Letters, 11(10), 1840-1843. doi:10.1109/LGRS.2014.2312032
