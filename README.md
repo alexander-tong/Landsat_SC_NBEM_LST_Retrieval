@@ -20,7 +20,7 @@ Future implementation will use GDAL in lieu of arcpy
 
 
 ## NDVI 
-//insert link to github repo link
+//insert future link to github repo link
 <insert link to github repo link>
 
 ## Emissivity 
@@ -30,7 +30,7 @@ Future implementation will use GDAL in lieu of arcpy
 [Calculate Atmospheric Functions](https://atmcorr.gsfc.nasa.gov/) 
 
 ## Land Surface Temperature Main
-//insert link to github repo link
+//insert future link to github repo link
 <insert link to github repo link>
 
 ## References
