@@ -19,7 +19,17 @@ Workflow tested and developed using the following packages/libraries:
 Future implementation will use GDAL in lieu of arcpy 
 
 
-## Emissivity Calculation
+## NDVI 
+<insert link to github repo link>
+
+## Emissivity 
+[Calculate Emissivity](https://github.com/alexander-tong/Landsat_LST_Retrieval/tree/master/Emissivity) 
+
+## Atmospheric Functions
+[Calculate Atmospheric Functions](https://atmcorr.gsfc.nasa.gov/) 
+
+## Land Surface Temperature Main 
+<insert link to github repo link>
 
 ## References
 Jimenez-Munoz, J. C., Cristobal, J., Sobrino, J. A., Sòria, G., Ninyerola, M., & Pons, X. (2009). Revision of the single-channel algorithm for land surface temperature retrieval from landsat thermal-infrared data. IEEE Transactions on Geoscience and Remote Sensing, 47(1), 339-349. doi:10.1109/TGRS.2008.2007125 
