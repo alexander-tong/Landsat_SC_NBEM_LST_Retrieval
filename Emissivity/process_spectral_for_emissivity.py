@@ -21,7 +21,7 @@ def main():
 def process_emissivity(directory,material,landsat_sensor):
     '''
     Description: 
-        computes the average emissivity for materials from ASTER spectral response \n\
+        computes the average emissivity for material spectral response \n\
         curves from the ASTER Spectral Library. Emissivity values are used in the \n\
         calculation of land surface temperature.
     
