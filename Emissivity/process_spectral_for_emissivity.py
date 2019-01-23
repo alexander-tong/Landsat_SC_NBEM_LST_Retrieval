@@ -6,6 +6,8 @@ Created on Sat Sep 15 21:58:24 2018
 
 Developed and tested with Python 2.7.15
 """
+import os
+import pandas as pd 
 
 def main():
     directory = r'D:\GLUE Datasets\Spectra\ecospeclib-1541789735754' # soil
@@ -39,9 +41,7 @@ def process_emissivity(directory,material,landsat_sensor):
     $Future Implementation: modify targeted effective wavelengths into  own function 
                             due to multiple cases for different materials
     '''
-    import os
-    import pandas as pd 
-    
+  
     material_type = []
     df_list = []
     
