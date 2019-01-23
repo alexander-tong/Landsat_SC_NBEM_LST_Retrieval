@@ -16,7 +16,7 @@ Workflow tested and developed using the following packages/libraries:
  - arcpy (ArcMap 10.6.1; Esri ArcGIS Spatial Analyst Extension License) 
  - pandas 0.23.0
  
-Future implementation will use GDAL in lieu of arcpy 
+Future implementation will use GDAL in lieu of arcpy for raster calculations
 
 
 ## NDVI 
