@@ -7,7 +7,7 @@ LST may be calculated from a single or multiple thermal infrared bands, dependin
 - at-sensor brightness temperature raster
 - NDVI raster
 - emissivity raster
-- atmospheric functions or water vapor content of the atmospheric profile
+- atmospheric functions (calculated via water vapor content or RTM) for known atmospheric profile
 
 Instructions for calculating LST will be added at a later date along with the algorithm as reported by Jiménez-Muñoz et al. 2009. 
 
