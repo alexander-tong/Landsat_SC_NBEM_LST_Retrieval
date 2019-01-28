@@ -6,9 +6,11 @@ Developed and tested with Python 2.7.15 and ArcMap 10.6
 """
 import os, sys
 
+
 if sys.version_info[0] != 2:
     print("This script requires Python version 2.xx")
     sys.exit(1)
+    
     
 try:
     import arcpy
@@ -18,35 +20,27 @@ except ImportError as IE:
     print ("This script requires arcpy to run")
     sys.exit(1)
 
-
+    
 def NDVI(directory, outpath):  
     '''
    **WARNING** logic is dependent on default Landsat naming convention and must be strictly adhered to.
    
     Description: 
-        This function will recursively go into a directory and compute a <spectral index> product\n\
+        This function will recursively go into a directory and compute an NDVI raster\n\
         from composited surface reflectance Landsat datasets. 
-    
-    arcpy is forcing creation of temporary layers in memory to process. 
-    
-            Normalized Difference Vegetation Index
-            NDVI = NIR - Red / NIR + Red
- 
-            Landsat 5/7:(Band 4 - Band 3)/(Band 4 + Band 3)
-            Landsat 8: (Band 5 - Band 4)/(Band 5 + Band 4) 
-            
-            Normalized Difference Snow Index
-            NDSI = green - SWIR / green + SWIR
 
-            Landsat 5/7:(Band 2 - Band 5/(Band 2 + Band 5) 
-            Landsat 8: (Band 3 - Band 6/(Band 3 + Band 6) 
+        Normalized Difference Vegetation Index
+        NDVI = NIR - Red / NIR + Red
+
+        Landsat 5/7:(Band 4 - Band 3)/(Band 4 + Band 3)
+        Landsat 8: (Band 5 - Band 4)/(Band 5 + Band 4) 
             
     Args:
         directory (str): input directory to be parsed. e.g., 'C:\\inpath'
         outpath (str): specify outpath. e.g., 'C:\\outpath' 
         
     Returns:
-        Output derived NDVI from composited Landsat raster     
+        Output NDVI raster from composited Landsat raster(s)     
     '''
     import os, arcpy 
     from arcpy.sa import *
