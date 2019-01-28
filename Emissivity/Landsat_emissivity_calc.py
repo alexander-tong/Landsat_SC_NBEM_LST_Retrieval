@@ -1,10 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-Created on Sat Sep 15 21:58:24 2018
+Developed and tested with Python 2.7.15
 
 @author: Alexander Tong
-
-Developed and tested with Python 2.7.15
 """
 import os
 import pandas as pd 
