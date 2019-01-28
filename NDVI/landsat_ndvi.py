@@ -1,8 +1,8 @@
 # -*- coding: utf-8 -*-
 """
-@author: Alexander Tong
+Developed and tested with Python 2.7.15 and ArcMap 10.6
 
-Developed and tested with Python 2.7.15
+@author: Alexander Tong
 """
 import os, sys
 
@@ -40,18 +40,13 @@ def NDVI(directory, outpath):
 
             Landsat 5/7:(Band 2 - Band 5/(Band 2 + Band 5) 
             Landsat 8: (Band 3 - Band 6/(Band 3 + Band 6) 
-
-    
+            
     Args:
         directory (str): input directory to be parsed. e.g., 'C:\\inpath'
         outpath (str): specify outpath. e.g., 'C:\\outpath' 
         
     Returns:
-        Output derived NDVI from composited Landsat raster 
-    
-    $ to be implemented: optimize code; reduce amount of lines    
-    $ to be implemented: if outpath does not exist, create folder, else nothing
-    
+        Output derived NDVI from composited Landsat raster     
     '''
     import os, arcpy 
     from arcpy.sa import *
