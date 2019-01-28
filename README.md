@@ -24,7 +24,7 @@ Future implementation will use GDAL in lieu of arcpy for raster calculations
 <insert link to github repo link>
 
 ## Emissivity 
-The NBEM requires the known emissivity of vegetation and soil. Optionally, NBEM can handle for scenes with water, ice/snow. If the emissivity values of surface materials are unknown (e.g., not ground-truthed), a global mean constant for each material may be used in lieu and can be calculated from an emissivity library. In this case, hemispherical reflectance from the ASTER Spectral Library can be used to derive emissivity via Kirchoff's Law. 
+The NBEM requires the known emissivity of vegetation and soil. Optionally, NBEM can handle for scenes with water, ice/snow. If the emissivity values of surface materials are unknown (e.g., not ground-truthed), a global mean constant for each material may be used in lieu and can be calculated from an emissivity library. In this case, hemispherical reflectance from the ASTER Spectral Library can be used to derive emissivity via Kirchoff's Law for a TIRS band at a specified effective wavelength.
 
 [Calculate Emissivity](https://github.com/alexander-tong/Landsat_LST_Retrieval/tree/master/Emissivity) 
 
