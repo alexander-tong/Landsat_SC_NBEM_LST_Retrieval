@@ -35,10 +35,16 @@ The NBEM requires the known emissivity of vegetation and soil. Optionally, NBEM 
 <insert link to github repo link>
 
 ## References
-Jimenez-Munoz, J. C., Cristobal, J., Sobrino, J. A., Sòria, G., Ninyerola, M., & Pons, X. (2009). Revision of the single-channel algorithm for land surface temperature retrieval from landsat thermal-infrared data. IEEE Transactions on Geoscience and Remote Sensing, 47(1), 339-349. doi:10.1109/TGRS.2008.2007125 
+Barsi, J. A., Barker, J. L., & Schott, J. R. (2003). An atmospheric correction parameter calculator for a single thermal band earth-sensing instrument. Paper presented at the International Geoscience and Remote Sensing Symposium (IGARSS), , 5 3014-3016. 
+
+Barsi, J. A., Schott, J. R., Palluconi, F. D., & Hook, S. J. (2005). Validation of a web-based atmospheric correction tool for single thermal band instruments. Paper presented at the Proceedings of SPIE - the International Society for Optical Engineering, , 5882 1-7. doi:10.1117/12.619990 
+
+Jiménez-Munoz, J. C., & Sobrino, J. A. (2003). A generalized single-channel method for retrieving land surface temperature from remote sensing data. Journal of Geophysical Research D: Atmospheres, 108(22), ACL 2-1 - ACL 2-9.
+
+Jiménez-Muñoz, J. C., Cristobal, J., Sobrino, J. A., Sòria, G., Ninyerola, M., & Pons, X. (2009). Revision of the single-channel algorithm for land surface temperature retrieval from landsat thermal-infrared data. IEEE Transactions on Geoscience and Remote Sensing, 47(1), 339-349. doi:10.1109/TGRS.2008.2007125
 
 Jimenez-Munoz, J. C., Sobrino, J. A., Skokovic, D., Mattar, C., & Cristobal, J. (2014). Land surface temperature retrieval methods from landsat-8 thermal infrared sensor data. IEEE Geoscience and Remote Sensing Letters, 11(10), 1840-1843. doi:10.1109/LGRS.2014.2312032
 
 Sobrino, J. A., Jiménez-Muñoz, J. C., & Paolini, L. (2004). Land surface temperature retrieval from LANDSAT TM 5. Remote Sensing of Environment, 90(4), 434-440. doi:10.1016/j.rse.2004.02.003 
 
-Sobrino, J. A., Jiménez-Muñoz, J. C., Sòria, G., Romaguera, M., Guanter, L., Moreno, J., . . . Martínez, P. (2008). Land surface emissivity retrieval from different VNIR and TIR sensors. IEEE Transactions on Geoscience and Remote Sensing, 46(2), 316-327. doi:10.1109/TGRS.2007.904834
+Sobrino, J. A., Jiménez-Muñoz, J. C., Sòria, G., Romaguera, M., Guanter, L., Moreno, J., Plaza, A., & Martínez, P. (2008). Land surface emissivity retrieval from different VNIR and TIR sensors. IEEE Transactions on Geoscience and Remote Sensing, 46(2), 316-327. doi:10.1109/TGRS.2007.904834 
